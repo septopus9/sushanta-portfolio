@@ -12,7 +12,7 @@ Welcome to my personal portfolio website, built with HTML, CSS, and hosted on Gi
 
 ## Live Site
 
-Visit: [https://yourusername.github.io/sushanta-portfolio](https://yourusername.github.io/sushanta-portfolio)
+Visit: [https://septopus9.github.io/sushanta-portfolio](https://septopus9.github.io/sushanta-portfolio)
 
 ## Contact
 
