@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- AOS Animation CSS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Sushanta Halder | Java Developer</title>
@@ -149,12 +151,12 @@
     </nav>
   </header>
 
-  <section id="about">
+  <section id="about" data-aos="fade-up">
     <h2>About Me</h2>
     <p>I’m a passionate Java developer with expertise in Spring Boot, Hibernate, and MySQL. I focus on building efficient and secure backend systems and full-stack apps with Thymeleaf. Currently exploring React and Flutter for frontend work.</p>
   </section>
 
-  <section id="projects">
+  <section id="projects"data-aos="zoom-in">
     <h2>Projects</h2>
     <ul>
       <li><strong>College Directory System:</strong> Role-based portal for students, faculty, and admins. Uses Spring Boot, JWT, Thymeleaf, and MySQL.</li>
@@ -218,6 +220,11 @@
       document.body.classList.toggle("dark-mode");
     }
   </script>
+  <!-- AOS Animation Script -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </body>
 </html>
